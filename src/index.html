@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Hello World!</h1>
+  We are using io.js <script>document.write(process.version)</script>
+  and Electron <script>document.write(process.versions['electron'])</script>.
+<input type="text" id="active-room" value="ca217ae0-9c65-4d34-918c-58a89a096ee4">
+<textarea id="msg" name="" id="" cols="30" rows="10"></textarea>
+<button id="send">send</button>
+  <div id="container"></div>
+  <script>require('./index.js');</script>
+</body>
+</html>

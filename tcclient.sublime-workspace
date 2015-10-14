@@ -1,0 +1,660 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"connec",
+				"connect"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"tix",
+				"tixchat"
+			],
+			[
+				"nw",
+				"nw-builder"
+			],
+			[
+				"node",
+				"node_modules"
+			],
+			[
+				"join",
+				"joinRoom"
+			],
+			[
+				"auth",
+				"authWS"
+			],
+			[
+				"ut",
+				"utf8Data"
+			],
+			[
+				"trans",
+				"transitionTo"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Unix",
+				"name": "gulpfile.js"
+			}
+		},
+		{
+			"file": "src/main.js",
+			"settings":
+			{
+				"buffer_size": 1535,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/auth.js",
+			"settings":
+			{
+				"buffer_size": 3385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "'use strict';\nconst util = require('util');\nconst EventEmitter = require('events');\n\nfunction Socket() {\n  // Initialize necessary properties from `EventEmitter` in this instance\n  EventEmitter.call(this);\n}\n\n// Inherit functions from `EventEmitter`'s prototype\nutil.inherits(Socket, EventEmitter);\n\nmodule.exports = new Socket();",
+			"file": "src/socket.js",
+			"file_size": 298,
+			"file_write_time": 130892954290351631,
+			"settings":
+			{
+				"buffer_size": 330,
+				"line_ending": "Unix",
+				"name": "client.js"
+			}
+		},
+		{
+			"file": "/home/yo/workspace/booker/token.js",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "[\"room\", {\n  \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n  \"event\": \"state\",\n  \"data\": {\n    \"id\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n    \"name\": \"Аниме комната\",\n    \"description\": \"Клёвая комната с бумбоксом и ботом\",\n    \"width\": 15,\n    \"height\": 12,\n    \"wallTile\": \"86839199-b964-487e-895d-16bf6f5ffa96\",\n    \"floorTile\": \"836ec0ce-c679-4d5a-8fb6-012529700633\",\n    \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n    \"unlisted\": false,\n    \"private\": false,\n    \"picture\": \"data/GC/xo/Ul/X3.room.jpg\",\n    \"adult\": false,\n    \"settings\": {\n      \"flags\": {\n        \"adult\": false,\n        \"moderated\": true,\n        \"noStickers\": false,\n        \"private\": false,\n        \"unlisted\": false\n      }\n    },\n    \"users\": 5\n  },\n  \"users\": {\n    \"2583869b-0492-401b-be8d-d89bb245e8de\": {\n      \"id\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n      \"bodyparts\": {\n        \"body\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"9e1b935b-68d1-435b-8711-fde364327ab5\",\n          \"kind\": \"body\",\n          \"part\": \"body_1\"\n        },\n        \"boots\": {\n          \"coins\": 400,\n          \"colors\": [\n            [34, 147, 181],\n            [255, 208, 108]\n          ],\n          \"id\": \"07f0c2f2-57b9-4e6d-a2e4-71fb6d92b32e\",\n          \"kind\": \"boots\",\n          \"part\": \"boots_6\"\n        },\n        \"brows\": {\n          \"coins\": 1,\n          \"colors\": [\n            [233, 180, 126]\n          ],\n          \"id\": \"4e2d043e-e49c-4da6-bd73-93ecff1d5e27\",\n          \"kind\": \"brows\",\n          \"part\": \"brows_9\"\n        },\n        \"eyes\": {\n          \"coins\": 1,\n          \"colors\": [\n            [130, 191, 212]\n          ],\n          \"id\": \"2614f97d-4d59-4004-aaf3-b2f426eeb1d5\",\n          \"kind\": \"eyes\",\n          \"part\": \"eyes_29\"\n        },\n        \"glasses\": {\n          \"coins\": 210,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"7f5ad79a-12a4-41bc-9723-e6e393d66a39\",\n          \"kind\": \"glasses\",\n          \"part\": \"glasses_5\"\n        },\n        \"hair\": {\n          \"coins\": 1,\n          \"colors\": [\n            [233, 180, 126]\n          ],\n          \"id\": \"a09e67a1-9634-4a01-be4e-e342b81e4883\",\n          \"kind\": \"hair\",\n          \"part\": \"hair_3\"\n        },\n        \"head\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"9783a9e6-89f9-4296-b0fe-596a7beb731f\",\n          \"kind\": \"head\",\n          \"part\": \"head_1\"\n        },\n        \"legs\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"84948662-327b-485d-afa5-588f1e2f047a\",\n          \"kind\": \"legs\",\n          \"part\": \"legs_1\"\n        },\n        \"mouth\": {\n          \"coins\": 1,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"862bbcad-d659-4022-9d2f-a8f73b4aa1da\",\n          \"kind\": \"mouth\",\n          \"part\": \"mouth_7\"\n        },\n        \"pants\": {\n          \"coins\": 50,\n          \"colors\": [\n            [61, 98, 124],\n            [168, 114, 55],\n            [127, 127, 127]\n          ],\n          \"id\": \"8a64842b-e11e-4143-ad20-d29071710711\",\n          \"kind\": \"pants\",\n          \"part\": \"pants_3\"\n        },\n        \"shirt\": {\n          \"coins\": 130,\n          \"colors\": [\n            [85, 143, 191],\n            [234, 195, 31]\n          ],\n          \"id\": \"fffbd031-811d-4a87-9ed2-a3673ef1d30a\",\n          \"kind\": \"shirt\",\n          \"part\": \"shirt_72\"\n        }\n      },\n      \"bodycolor\": [251, 216, 194],\n      \"sex\": \"m\",\n      \"online\": true,\n      \"name\": \"XoBpawok\",\n      \"shortId\": \"UTCLM\",\n      \"age\": 661294800000,\n      \"karma\": 226\n    },\n    \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\": {\n      \"id\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"bodyparts\": {\n        \"blush\": {\n          \"coins\": 40,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"4c3572fd-df69-4cf9-842a-09490cbcb692\",\n          \"kind\": \"blush\",\n          \"part\": \"blush_1\"\n        },\n        \"body\": {\n          \"colors\": [\n            [16, 249, 31],\n            [233, 143, 186],\n            [169, 50, 36]\n          ],\n          \"id\": \"2dc6bda5-ef72-4588-9458-17e56792bf2d\",\n          \"kind\": \"body\",\n          \"part\": \"body_2\"\n        },\n        \"boots\": {\n          \"coins\": 480,\n          \"colors\": [\n            [43, 46, 51]\n          ],\n          \"id\": \"e2a32d7e-42be-46e6-a9c7-d2741212ed3f\",\n          \"kind\": \"boots\",\n          \"part\": \"boots_7\"\n        },\n        \"brows\": {\n          \"coins\": 1,\n          \"colors\": [\n            [51, 28, 12]\n          ],\n          \"id\": \"ee9b9a12-22ae-4c40-afcd-1fd056064edd\",\n          \"kind\": \"brows\",\n          \"part\": \"brows_16\"\n        },\n        \"eyes\": {\n          \"coins\": 160,\n          \"colors\": [\n            [99, 51, 46]\n          ],\n          \"id\": \"c6b9a2f5-7c2f-42b0-bc5b-c7a7be4b6d15\",\n          \"kind\": \"eyes\",\n          \"part\": \"eyes_22\"\n        },\n        \"glasses\": {\n          \"coins\": 210,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"534b1800-07f9-4901-b0cd-6e796aaeb68a\",\n          \"kind\": \"glasses\",\n          \"part\": \"glasses_5\"\n        },\n        \"hair\": {\n          \"coins\": 700,\n          \"colors\": [\n            [51, 28, 12]\n          ],\n          \"id\": \"4c19e99c-fc64-4c05-9744-41821b2e4a56\",\n          \"kind\": \"hair\",\n          \"part\": \"hair_40\",\n          \"requires\": [\"f3b4b072-d5c8-426b-bf65-82f99edbbbb9\"]\n        },\n        \"hair_back\": {\n          \"colors\": [\n            [51, 28, 12]\n          ],\n          \"id\": \"f3b4b072-d5c8-426b-bf65-82f99edbbbb9\",\n          \"kind\": \"hair_back\",\n          \"part\": \"hair_back_40\",\n          \"requires\": [\"4c19e99c-fc64-4c05-9744-41821b2e4a56\"]\n        },\n        \"head\": {\n          \"colors\": [\n            [76, 102, 237],\n            [132, 5, 22],\n            [44, 188, 158]\n          ],\n          \"id\": \"befe23b4-09dc-4cc4-9ce7-2c81bf32d044\",\n          \"kind\": \"head\",\n          \"part\": \"head_1\"\n        },\n        \"legs\": {\n          \"colors\": [\n            [172, 237, 97],\n            [11, 139, 17],\n            [113, 139, 199]\n          ],\n          \"id\": \"6c365613-3783-4bf5-b1bb-2f4d987e98a3\",\n          \"kind\": \"legs\",\n          \"part\": \"legs_2\"\n        },\n        \"mask\": {\n          \"coins\": 15,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"cf1848e6-b02e-425b-896d-d2b718a9d468\",\n          \"kind\": \"mask\",\n          \"part\": \"mask_15\"\n        },\n        \"mouth\": {\n          \"coins\": 40,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"1c9e83c0-8d52-4eba-9c28-9f31a040fa62\",\n          \"kind\": \"mouth\",\n          \"part\": \"mouth_16\"\n        },\n        \"pants\": {\n          \"coins\": 140,\n          \"colors\": [\n            [51, 51, 51],\n            [224, 209, 237]\n          ],\n          \"id\": \"8f1e87a2-165d-47e3-90b0-3150e6db69fa\",\n          \"kind\": \"pants\",\n          \"part\": \"pants_15\"\n        },\n        \"scarf\": {\n          \"coins\": 40,\n          \"colors\": [\n            [247, 247, 247]\n          ],\n          \"id\": \"65ce6aed-68a0-429b-8e38-8352aaf6794d\",\n          \"kind\": \"scarf\",\n          \"part\": \"scarf_3\"\n        },\n        \"shirt\": {\n          \"coins\": 30,\n          \"colors\": [\n            [64, 64, 65]\n          ],\n          \"id\": \"ab422f92-73b2-4520-9b83-ae4a7103fb89\",\n          \"kind\": \"shirt\",\n          \"part\": \"sweater_3\"\n        }\n      },\n      \"bodycolor\": [251, 216, 194],\n      \"sex\": \"f\",\n      \"online\": true,\n      \"name\": \"Маньячка Eleanora\",\n      \"alpha\": true,\n      \"shortId\": \"X3JLC\",\n      \"karma\": 811\n    },\n    \"edb03815-65e3-450e-b02a-c54c95960ce5\": {\n      \"id\": \"edb03815-65e3-450e-b02a-c54c95960ce5\",\n      \"bodyparts\": {\n        \"body\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"1d544e73-8a83-4636-9ec3-8e6bae5f9ea6\",\n          \"kind\": \"body\",\n          \"part\": \"body_1\"\n        },\n        \"brows\": {\n          \"coins\": 1,\n          \"colors\": [\n            [248, 235, 194]\n          ],\n          \"id\": \"709e7ca6-f7ed-47fd-a9d2-82dd5ae9d535\",\n          \"kind\": \"brows\",\n          \"part\": \"brows_14\"\n        },\n        \"eyes\": {\n          \"coins\": 1,\n          \"colors\": [\n            [104, 191, 150]\n          ],\n          \"id\": \"174302c2-d1ea-4b2a-a149-9505388b6842\",\n          \"kind\": \"eyes\",\n          \"part\": \"eyes_11\"\n        },\n        \"hat\": {\n          \"coins\": 29,\n          \"colors\": [\n            [7, 222, 0],\n            [255, 255, 255]\n          ],\n          \"id\": \"84027fc9-20b9-4bc1-b443-e4fa58e954f4\",\n          \"kind\": \"hat\",\n          \"part\": \"hat_15\"\n        },\n        \"head\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"6c869dc4-6253-4d13-a059-27639f453204\",\n          \"kind\": \"head\",\n          \"part\": \"head_1\"\n        },\n        \"legs\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"38bc513e-08c8-4d97-b74c-f3f3c0d6471c\",\n          \"kind\": \"legs\",\n          \"part\": \"legs_1\"\n        },\n        \"mouth\": {\n          \"coins\": 1,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"e72c88ee-d561-485d-acd0-56106c752399\",\n          \"kind\": \"mouth\",\n          \"part\": \"mouth_7\"\n        },\n        \"pants\": {\n          \"coins\": 1,\n          \"colors\": [\n            [35, 31, 32]\n          ],\n          \"id\": \"58d8fa78-bf65-4c29-9f05-c65b1af02c5c\",\n          \"kind\": \"pants\",\n          \"part\": \"pants_1\"\n        },\n        \"shirt\": {\n          \"coins\": 4,\n          \"colors\": [\n            [244, 244, 242]\n          ],\n          \"id\": \"adb79fbc-815d-44a7-8929-a0ae4a5b35cc\",\n          \"kind\": \"shirt\",\n          \"part\": \"shirt_11\"\n        }\n      },\n      \"bodycolor\": [234, 198, 160],\n      \"sex\": \"m\",\n      \"online\": true,\n      \"name\": \"Святослав Мирный\",\n      \"shortId\": \"TUBHH\",\n      \"age\": 654714000000,\n      \"karma\": 57\n    },\n    \"5479f3f8-dc37-48a5-8d88-e6018552d706\": {\n      \"id\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"bodyparts\": {\n        \"body\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"33d7cc21-99ef-463a-bc8c-51f27028eb0d\",\n          \"kind\": \"body\",\n          \"part\": \"body_1\"\n        },\n        \"brows\": {\n          \"coins\": 1,\n          \"colors\": [\n            [248, 235, 194]\n          ],\n          \"id\": \"c5b0b7f4-b147-4c17-85a4-cc4d63d951c3\",\n          \"kind\": \"brows\",\n          \"part\": \"brows_16\"\n        },\n        \"eyes\": {\n          \"coins\": 70,\n          \"colors\": [\n            [130, 191, 212]\n          ],\n          \"id\": \"819c6c33-f0d1-496e-9748-9ef976bb492d\",\n          \"kind\": \"eyes\",\n          \"part\": \"eyes_27\"\n        },\n        \"hair\": {\n          \"coins\": 1,\n          \"colors\": [\n            [248, 235, 194]\n          ],\n          \"id\": \"938b113e-2357-4ef9-a144-257a4c5473b1\",\n          \"kind\": \"hair\",\n          \"part\": \"hair_3\"\n        },\n        \"hat\": {\n          \"coins\": 29,\n          \"colors\": [\n            [148, 148, 148],\n            [0, 0, 0]\n          ],\n          \"id\": \"d95d7285-c6ff-4b76-84d5-90a6e18222f5\",\n          \"kind\": \"hat\",\n          \"part\": \"hat_15\"\n        },\n        \"head\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"9fc7b667-60df-40b4-92a7-535bddb8ea18\",\n          \"kind\": \"head\",\n          \"part\": \"head_1\"\n        },\n        \"legs\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"1be51273-4943-4fc0-8fa5-d91a26d1c3f2\",\n          \"kind\": \"legs\",\n          \"part\": \"legs_1\"\n        },\n        \"mouth\": {\n          \"coins\": 600,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"5c27fb6d-1685-4d72-ac3c-02a2e9bcfd55\",\n          \"kind\": \"mouth\",\n          \"part\": \"mouth_19\"\n        },\n        \"pants\": {\n          \"coins\": 1,\n          \"colors\": [\n            [47, 47, 47]\n          ],\n          \"id\": \"7535f44c-9f72-402a-82e7-a0bf4a26c8b5\",\n          \"kind\": \"pants\",\n          \"part\": \"pants_1\"\n        },\n        \"shirt\": {\n          \"coins\": 240,\n          \"colors\": [\n            [255, 255, 255],\n            [34, 147, 181]\n          ],\n          \"id\": \"fbeb2fd0-7aa1-4c9b-8d04-2a87ff2f7845\",\n          \"kind\": \"shirt\",\n          \"part\": \"shirt_49\"\n        }\n      },\n      \"bodycolor\": [243, 202, 179],\n      \"sex\": \"m\",\n      \"online\": true,\n      \"name\": \"Vladimir Davydov\",\n      \"shortId\": \"XLEYL\",\n      \"age\": 779054400000,\n      \"karma\": 334\n    },\n    \"48902b07-9cd2-4014-a905-8fcffc87cbae\": {\n      \"id\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n      \"bodyparts\": {\n        \"body\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"b027c752-8948-49fe-91a9-95b82284b4ba\",\n          \"kind\": \"body\",\n          \"part\": \"body_2\"\n        },\n        \"boots\": {\n          \"coins\": 1,\n          \"colors\": [\n            [209, 210, 212]\n          ],\n          \"id\": \"5531bff2-ff8d-469d-8173-fc1598ce8888\",\n          \"kind\": \"boots\",\n          \"part\": \"boots_2\"\n        },\n        \"brows\": {\n          \"coins\": 1,\n          \"colors\": [\n            [248, 235, 194]\n          ],\n          \"id\": \"e4ab82ef-4ca8-4b0a-a5df-83f40b0c4126\",\n          \"kind\": \"brows\",\n          \"part\": \"brows_16\"\n        },\n        \"eyes\": {\n          \"coins\": 1,\n          \"colors\": [\n            [104, 191, 150]\n          ],\n          \"id\": \"511e887f-dea4-4a71-be44-0ee5b4ef80d2\",\n          \"kind\": \"eyes\",\n          \"part\": \"eyes_12\"\n        },\n        \"hair\": {\n          \"coins\": 1,\n          \"colors\": [\n            [248, 235, 194]\n          ],\n          \"id\": \"77494b61-d960-4de4-9859-9be62155dda3\",\n          \"kind\": \"hair\",\n          \"part\": \"hair_2\",\n          \"requires\": [\"f8c421b3-341a-4784-a240-5f9d4060652f\"]\n        },\n        \"hair_back\": {\n          \"colors\": [\n            [248, 235, 194]\n          ],\n          \"id\": \"f8c421b3-341a-4784-a240-5f9d4060652f\",\n          \"kind\": \"hair_back\",\n          \"part\": \"hair_back_2\",\n          \"requires\": [\"77494b61-d960-4de4-9859-9be62155dda3\"]\n        },\n        \"head\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"3ce4f76a-bcd9-4af9-9aec-c27b3fc40b05\",\n          \"kind\": \"head\",\n          \"part\": \"head_1\"\n        },\n        \"legs\": {\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"579f9e52-8ced-4327-a51c-cb8ba4ae8955\",\n          \"kind\": \"legs\",\n          \"part\": \"legs_2\"\n        },\n        \"mask\": {\n          \"coins\": 199,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"c52e2472-e9a9-4665-85d9-b226505a2d7a\",\n          \"kind\": \"mask\",\n          \"part\": \"mask_11\"\n        },\n        \"mouth\": {\n          \"coins\": 1,\n          \"colors\": [\n            [127, 127, 127],\n            [127, 127, 127],\n            [127, 127, 127]\n          ],\n          \"id\": \"5001d9ec-05bf-48b7-bc0e-02b1d993904f\",\n          \"kind\": \"mouth\",\n          \"part\": \"mouth_15\"\n        },\n        \"pants\": {\n          \"coins\": 140,\n          \"colors\": [\n            [51, 51, 51],\n            [224, 209, 237]\n          ],\n          \"id\": \"57385e5b-3ecb-4641-bd9b-55ec1a950892\",\n          \"kind\": \"pants\",\n          \"part\": \"pants_15\"\n        },\n        \"shirt\": {\n          \"coins\": 40,\n          \"colors\": [\n            [91, 91, 91],\n            [254, 191, 50],\n            [244, 244, 242]\n          ],\n          \"id\": \"a24bbdbb-3f9c-4593-aa8c-e38df444ec22\",\n          \"kind\": \"shirt\",\n          \"part\": \"shirt_17\"\n        }\n      },\n      \"bodycolor\": [251, 216, 194],\n      \"sex\": \"f\",\n      \"online\": true,\n      \"name\": \"Юми\",\n      \"shortId\": \"G9DJ8\",\n      \"karma\": 16\n    }\n  },\n  \"avatars\": {\n    \"2583869b-0492-401b-be8d-d89bb245e8de\": {\n      \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n      \"x\": 11,\n      \"y\": 5,\n      \"path\": null\n    },\n    \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\": {\n      \"user\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"x\": 10,\n      \"y\": 5,\n      \"path\": null\n    },\n    \"edb03815-65e3-450e-b02a-c54c95960ce5\": {\n      \"user\": \"edb03815-65e3-450e-b02a-c54c95960ce5\",\n      \"x\": 3,\n      \"y\": -1\n    },\n    \"5479f3f8-dc37-48a5-8d88-e6018552d706\": {\n      \"user\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"x\": 5,\n      \"y\": 6\n    },\n    \"48902b07-9cd2-4014-a905-8fcffc87cbae\": {\n      \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n      \"x\": 6,\n      \"y\": 4\n    }\n  },\n  \"things\": {\n    \"13e61576-c5e3-4187-88ef-c9464be3fcbe\": {\n      \"colors\": [\n        [194, 181, 155]\n      ],\n      \"id\": \"13e61576-c5e3-4187-88ef-c9464be3fcbe\",\n      \"owner\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_5_1\",\n      \"x\": 7,\n      \"y\": 0\n    },\n    \"40f80275-57e5-4723-891b-ba4e3388c7dc\": {\n      \"colors\": [\n        [117, 58, 40]\n      ],\n      \"id\": \"40f80275-57e5-4723-891b-ba4e3388c7dc\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"table_7_1\",\n      \"x\": 4,\n      \"y\": 7\n    },\n    \"56075411-6c90-4460-b86d-41f17a3d780b\": {\n      \"colors\": [\n        [45, 45, 45]\n      ],\n      \"id\": \"56075411-6c90-4460-b86d-41f17a3d780b\",\n      \"owner\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_3_1\",\n      \"x\": 1,\n      \"y\": 8\n    },\n    \"6ae24b83-e729-4b1e-a88d-73fb3c5d12f6\": {\n      \"colors\": [\n        [89, 187, 226]\n      ],\n      \"id\": \"6ae24b83-e729-4b1e-a88d-73fb3c5d12f6\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"70874f3b-69f1-40a3-b5d0-7fffb6a7b117\": {\n      \"colors\": [\n        [155, 192, 210],\n        [117, 58, 40]\n      ],\n      \"id\": \"70874f3b-69f1-40a3-b5d0-7fffb6a7b117\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"lamp_1_1\",\n      \"x\": 14,\n      \"y\": 5\n    },\n    \"7a56eeaf-2f64-45bf-a283-8b3c1c8b36f3\": {\n      \"colors\": [],\n      \"id\": \"7a56eeaf-2f64-45bf-a283-8b3c1c8b36f3\",\n      \"owner\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_7\",\n      \"x\": 4,\n      \"y\": 2\n    },\n    \"81b2a35e-8b17-4dc3-aafa-0e0dfdbbc0ab\": {\n      \"colors\": [\n        [194, 181, 155]\n      ],\n      \"id\": \"81b2a35e-8b17-4dc3-aafa-0e0dfdbbc0ab\",\n      \"owner\": \"ec29971c-e01b-4f5b-b9d3-6c149cd5ebe9\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_5_1\",\n      \"x\": 10,\n      \"y\": 0\n    },\n    \"9e9d20eb-7be1-4fae-8ed0-7827d1a8f0f1\": {\n      \"colors\": [],\n      \"id\": \"9e9d20eb-7be1-4fae-8ed0-7827d1a8f0f1\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_7\",\n      \"x\": 14,\n      \"y\": 0\n    },\n    \"f8dd762f-cee5-4375-8a2e-19aeed47ba0d\": {\n      \"colors\": [\n        [23, 19, 17],\n        [8, 57, 31]\n      ],\n      \"id\": \"f8dd762f-cee5-4375-8a2e-19aeed47ba0d\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_2_1\",\n      \"x\": 5,\n      \"y\": 6\n    },\n    \"19e7a319-1de2-43da-808b-599919689135\": {\n      \"colors\": [],\n      \"id\": \"19e7a319-1de2-43da-808b-599919689135\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_8\",\n      \"x\": 2,\n      \"y\": 2\n    },\n    \"641450ac-50ab-45c8-9b65-bbb2fb27bd09\": {\n      \"colors\": [\n        [89, 187, 226]\n      ],\n      \"id\": \"641450ac-50ab-45c8-9b65-bbb2fb27bd09\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"7158b196-83fc-4757-bf14-a15c014d068d\": {\n      \"colors\": [\n        [0, 147, 68]\n      ],\n      \"id\": \"7158b196-83fc-4757-bf14-a15c014d068d\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"86839199-b964-487e-895d-16bf6f5ffa96\": {\n      \"colors\": [\n        [0, 147, 68]\n      ],\n      \"id\": \"86839199-b964-487e-895d-16bf6f5ffa96\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"c639de82-4a05-49d5-8b32-158e37d714c4\": {\n      \"colors\": [],\n      \"id\": \"c639de82-4a05-49d5-8b32-158e37d714c4\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_7\",\n      \"x\": 0,\n      \"y\": 8\n    },\n    \"16ded3e9-5684-459a-b543-7f150d5451ef\": {\n      \"colors\": [\n        [117, 58, 40],\n        [146, 25, 28]\n      ],\n      \"id\": \"16ded3e9-5684-459a-b543-7f150d5451ef\",\n      \"owner\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_2_1\",\n      \"x\": 7,\n      \"y\": 7\n    },\n    \"73e3f862-5d91-43c1-8e9d-020c51b20ea0\": {\n      \"colors\": [\n        [214, 100, 38]\n      ],\n      \"id\": \"73e3f862-5d91-43c1-8e9d-020c51b20ea0\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"7e7af555-4e3d-48b3-9b27-07d904a05520\": {\n      \"colors\": [\n        [117, 58, 40],\n        [146, 25, 28]\n      ],\n      \"id\": \"7e7af555-4e3d-48b3-9b27-07d904a05520\",\n      \"owner\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_2_1\",\n      \"x\": 3,\n      \"y\": 7\n    },\n    \"8bb826b1-f7b1-4cd9-bb6c-daef2e4b656e\": {\n      \"colors\": [\n        [177, 132, 92],\n        [195, 154, 107],\n        [168, 123, 79],\n        [149, 109, 72],\n        [149, 109, 72],\n        [168, 123, 79]\n      ],\n      \"id\": \"8bb826b1-f7b1-4cd9-bb6c-daef2e4b656e\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"floor_3_1\"\n    },\n    \"980afe8d-2ee7-416a-9437-a1585265cafb\": {\n      \"colors\": [\n        [119, 80, 41]\n      ],\n      \"id\": \"980afe8d-2ee7-416a-9437-a1585265cafb\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"d1983476-bae3-48b4-9d7c-d9df08d86d93\": {\n      \"colors\": [\n        [23, 19, 17],\n        [3, 104, 173]\n      ],\n      \"id\": \"d1983476-bae3-48b4-9d7c-d9df08d86d93\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_2_1\",\n      \"x\": 14,\n      \"y\": 10\n    },\n    \"098b9133-62e7-4b8a-9a6b-0277b5a9aa28\": {\n      \"colors\": [\n        [147, 72, 42],\n        [104, 62, 60]\n      ],\n      \"id\": \"098b9133-62e7-4b8a-9a6b-0277b5a9aa28\",\n      \"owner\": \"ec29971c-e01b-4f5b-b9d3-6c149cd5ebe9\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"door_t_2\",\n      \"x\": 2,\n      \"y\": 0\n    },\n    \"452f4d0d-c0a1-43c6-9658-3c638c22b6c5\": {\n      \"colors\": [\n        [116, 76, 40],\n        [138, 93, 59],\n        [96, 56, 19],\n        [73, 39, 10],\n        [73, 39, 10],\n        [96, 56, 19]\n      ],\n      \"id\": \"452f4d0d-c0a1-43c6-9658-3c638c22b6c5\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"floor_3_1\"\n    },\n    \"82bb4eec-495b-4a8c-b0a6-c89e3b3bd7b0\": {\n      \"colors\": [],\n      \"id\": \"82bb4eec-495b-4a8c-b0a6-c89e3b3bd7b0\",\n      \"owner\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_7\",\n      \"x\": 12,\n      \"y\": 1\n    },\n    \"021237e0-c6b3-4a2f-8268-e5eaeac59a7f\": {\n      \"colors\": [],\n      \"id\": \"021237e0-c6b3-4a2f-8268-e5eaeac59a7f\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_7\",\n      \"x\": 0,\n      \"y\": 2\n    },\n    \"1385b844-9e0b-4671-bc58-d736af9068f0\": {\n      \"colors\": [],\n      \"id\": \"1385b844-9e0b-4671-bc58-d736af9068f0\",\n      \"owner\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_7\",\n      \"x\": 4,\n      \"y\": 0\n    },\n    \"171bafc5-0470-4f87-b6d7-2f1dbb3a2a90\": {\n      \"colors\": [\n        [182, 163, 135],\n        [198, 183, 167],\n        [167, 145, 110],\n        [145, 121, 87],\n        [145, 121, 87],\n        [145, 121, 87]\n      ],\n      \"id\": \"171bafc5-0470-4f87-b6d7-2f1dbb3a2a90\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"floor_3_1\"\n    },\n    \"74e794ad-a1be-4dc9-85a1-22beb3357098\": {\n      \"colors\": [\n        [181, 118, 76],\n        [104, 62, 60]\n      ],\n      \"id\": \"74e794ad-a1be-4dc9-85a1-22beb3357098\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"door_t_2\",\n      \"x\": 5,\n      \"y\": 0\n    },\n    \"9ad5cde8-288b-4464-befc-fa60d3d5a856\": {\n      \"colors\": [\n        [91, 91, 91]\n      ],\n      \"id\": \"9ad5cde8-288b-4464-befc-fa60d3d5a856\",\n      \"owner\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_3_1\",\n      \"x\": 0,\n      \"y\": 4\n    },\n    \"b4fb92de-a1bd-4e21-9c96-b14c0f273242\": {\n      \"colors\": [],\n      \"id\": \"b4fb92de-a1bd-4e21-9c96-b14c0f273242\",\n      \"owner\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_7\",\n      \"x\": 1,\n      \"y\": 0\n    },\n    \"c118027c-c20d-4ba9-b1c4-ece27775050a\": {\n      \"colors\": [\n        [0, 147, 68]\n      ],\n      \"id\": \"c118027c-c20d-4ba9-b1c4-ece27775050a\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"583bcbf0-0626-40c4-8d32-87cb6d60e3b8\": {\n      \"colors\": [\n        [44, 49, 51]\n      ],\n      \"id\": \"583bcbf0-0626-40c4-8d32-87cb6d60e3b8\",\n      \"owner\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"sofa_8_2\",\n      \"x\": 8,\n      \"y\": 5\n    },\n    \"5a4b4ffd-9f47-413c-94e3-8e71ea641217\": {\n      \"colors\": [\n        [117, 58, 40],\n        [3, 104, 173]\n      ],\n      \"id\": \"5a4b4ffd-9f47-413c-94e3-8e71ea641217\",\n      \"owner\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"chair_2_1\",\n      \"x\": 13,\n      \"y\": 10\n    },\n    \"867d2b98-269f-4b80-8834-5ac726e1c6c6\": {\n      \"colors\": [\n        [116, 76, 40],\n        [138, 93, 59],\n        [96, 56, 19],\n        [73, 39, 10],\n        [73, 39, 10],\n        [96, 56, 19]\n      ],\n      \"id\": \"867d2b98-269f-4b80-8834-5ac726e1c6c6\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"floor_3_1\"\n    },\n    \"9b65250f-b445-4f29-b14d-b5a40d6ee735\": {\n      \"colors\": [\n        [155, 192, 210],\n        [117, 58, 40]\n      ],\n      \"id\": \"9b65250f-b445-4f29-b14d-b5a40d6ee735\",\n      \"owner\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"lamp_1_1\",\n      \"x\": 7,\n      \"y\": 5\n    },\n    \"e726e0e0-b65f-487e-b91c-86d2bd8b0769\": {\n      \"colors\": [],\n      \"id\": \"e726e0e0-b65f-487e-b91c-86d2bd8b0769\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"decoration_7\",\n      \"x\": 2,\n      \"y\": 5\n    },\n    \"836ec0ce-c679-4d5a-8fb6-012529700633\": {\n      \"colors\": [\n        [116, 76, 40],\n        [138, 93, 59],\n        [96, 56, 19],\n        [73, 39, 10],\n        [73, 39, 10],\n        [96, 56, 19]\n      ],\n      \"id\": \"836ec0ce-c679-4d5a-8fb6-012529700633\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"floor_3_1\"\n    },\n    \"affaf3e1-2b27-490b-8e16-302b92e63d83\": {\n      \"colors\": [\n        [133, 147, 56]\n      ],\n      \"id\": \"affaf3e1-2b27-490b-8e16-302b92e63d83\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"688b4e6c-9867-41ca-89fa-c00bca3f475a\": {\n      \"colors\": [\n        [133, 147, 56]\n      ],\n      \"id\": \"688b4e6c-9867-41ca-89fa-c00bca3f475a\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"thing\": \"wall_2_1\"\n    },\n    \"48fb1b91-a287-478d-a120-c5b9b68b6675\": {\n      \"colors\": [],\n      \"id\": \"48fb1b91-a287-478d-a120-c5b9b68b6675\",\n      \"owner\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n      \"playing\": \"6ee276f9-1cb1-4d63-b549-9d6e7a32f551\",\n      \"playlist\": [{\n        \"album\": null,\n        \"artist\": \"Taneda Risa\",\n        \"duration\": 209,\n        \"id\": \"6ee276f9-1cb1-4d63-b549-9d6e7a32f551\",\n        \"path\": \"data/uR/n7/sy/WODuPp.mp3\",\n        \"title\": \"Wareta Ringo\",\n        \"uploader\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\"\n      }, {\n        \"album\": \"Wonderful Wonder World*\",\n        \"artist\": \"Yun*chi\",\n        \"duration\": 294,\n        \"id\": \"2095e611-8754-4623-9e51-5e1c2010aae1\",\n        \"path\": \"data/NC/3l/Hi/oko9Hv.mp3\",\n        \"title\": \"Wonderful Wonder World*\",\n        \"uploader\": \"40f190b9-2aad-4d88-87ff-044493601d13\"\n      }, {\n        \"album\": \"WALK\",\n        \"artist\": \"OLDCODEX\",\n        \"duration\": 263,\n        \"id\": \"0017d8ea-4d21-4a24-9b69-d0abdf83413b\",\n        \"path\": \"data/5m/Xs/sZ/2HZEDc.mp3\",\n        \"title\": \"WALK\",\n        \"uploader\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\"\n      }, {\n        \"album\": null,\n        \"artist\": null,\n        \"duration\": 89,\n        \"id\": \"132c3820-566f-4db0-8e33-03f206dab5cd\",\n        \"path\": \"data/AR/Fq/JM/5jmPZ7.mp3\",\n        \"title\": \"Naruto-2-sezon-1-opening-Heros-Come-Back33(muzofon.com).mp3\",\n        \"uploader\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\"\n      }, {\n        \"album\": null,\n        \"artist\": null,\n        \"duration\": 89,\n        \"id\": \"9829592f-ead8-415d-9ca2-39f678615978\",\n        \"path\": \"data/N0/Hy/v0/jTtM2K.mp3\",\n        \"title\": \"12304ED12305WataMote--Ne-moya-vina-chto-ya-ne-populyarna33-TV-version(muzofon.com).mp3\",\n        \"uploader\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\"\n      }, {\n        \"album\": null,\n        \"artist\": null,\n        \"duration\": 225,\n        \"id\": \"12b303de-df57-4129-a4a3-3546d2caccc6\",\n        \"path\": \"data/sq/GG/iN/lwa5wP.mp3\",\n        \"title\": \"Shingeki-no-Kyojin--Attack-on-titan--Ataka-titanov--Vtorzhenie-gigantov-1-Opening(muzofon.com).mp3\",\n        \"uploader\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\"\n      }, {\n        \"album\": \"BECK ORIGINAL SOUNDTRACK \\\"BECK\\\"\",\n        \"artist\": \"THE Dying Breed Feat. Tanaka Koyuki\",\n        \"duration\": 294,\n        \"id\": \"70e1ad38-07ee-4ba3-b17b-f059d52c6399\",\n        \"path\": \"data/NM/pW/pG/teMFa5.mp3\",\n        \"title\": \"Moon On The Water\",\n        \"uploader\": \"af18133a-84f0-4b00-9ef0-6a308ce59fe3\"\n      }, {\n        \"album\": \"空想メソロギヰ(初回限定盤)\",\n        \"artist\": \"妖精帝國\",\n        \"duration\": 239,\n        \"id\": \"f8bd6389-6c02-4bbc-be47-f85500102f14\",\n        \"path\": \"data/eu/Ht/VL/0qsd9N.mp3\",\n        \"title\": \"空想メソロギヰ\",\n        \"uploader\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\"\n      }, {\n        \"album\": \"Sekai de Ichiban Koishiteru\",\n        \"artist\": \"喜多修平\",\n        \"duration\": 232,\n        \"id\": \"ce37426a-7dc5-4549-84e5-a77fe3362b3d\",\n        \"path\": \"data/W6/Ep/y8/iaIQnU.mp3\",\n        \"title\": \"Sekai de Ichiban Koishiteru\",\n        \"uploader\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\"\n      }, {\n        \"album\": null,\n        \"artist\": null,\n        \"duration\": 88,\n        \"id\": \"3da36471-2a09-43a2-86f2-6427d1fc8227\",\n        \"path\": \"data/MS/ny/QL/gLmen8.mp3\",\n        \"title\": \"Ne-znayu-Opening-k-anime-Nischebog-zhe-_(muzofon.com).mp3\",\n        \"uploader\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\"\n      }, {\n        \"album\": null,\n        \"artist\": null,\n        \"duration\": 292,\n        \"id\": \"e72b13d0-2ffb-48ba-8ee5-4cae5e985912\",\n        \"path\": \"data/S4/hN/iL/MTl2dd.mp3\",\n        \"title\": \"FireFarm_and_AJ_Myst-Carpe_Diem_-_Part_3_(mp3.malovato.net).mp3\",\n        \"uploader\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\"\n      }],\n      \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n      \"since\": 1444807912066,\n      \"thing\": \"player_1_1\",\n      \"x\": 7,\n      \"y\": 11\n    }\n  },\n  \"messages\": [{\n    \"time\": 1444776664195,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"<img data-orig=\\\"http://cs5.pikabu.ru/post_img/2015/09/26/9/1443278839_292856383.jpg\\\" data-fullsize=\\\"/data/JG/tF/sP/Jt.jpeg\\\" src=\\\"/data/JG/tF/sP/Jt_resized.jpeg\\\" width=\\\"111\\\" height=\\\"100\\\">\",\n    \"data\": {}\n  }, {\n    \"time\": 1444776805417,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"Сплошная порнуха в ленте.\",\n    \"data\": {}\n  }, {\n    \"time\": 1444776818226,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"Нет ничего нормального.\",\n    \"data\": {}\n  }, {\n    \"time\": 1444776943052,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"2583869b-0492-401b-be8d-d89bb245e8de\\\">XoBpawok</span>, <span class=\\\"user\\\" data-id=\\\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\\\">Маньячка</span> Короче. Сегодня я впервые за долгое время первый(!) покидаю вас. Мне дали выходной, и сейчас я еду до дому. Буду завтра часа в три-четыре. До завтрева.\",\n    \"data\": {\n      \"highlightedUsers\": [\"2583869b-0492-401b-be8d-d89bb245e8de\", \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\"]\n    }\n  }, {\n    \"time\": 1444777005618,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"Эй?\",\n    \"data\": {}\n  }, {\n    \"time\": 1444777030675,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"Как бы, не дождавшись прощания уходить не вежливо.\",\n    \"data\": {}\n  }, {\n    \"time\": 1444777047868,\n    \"user\": \"16a8b087-13ce-40c0-8c63-2d441587ae8c\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"c789d5b7-41f5-48ef-831a-9efee606c556\\\">Александр</span>, удачи...\",\n    \"data\": {\n      \"highlightedUsers\": [\"c789d5b7-41f5-48ef-831a-9efee606c556\"]\n    }\n  }, {\n    \"time\": 1444777057885,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"Номер раз.\",\n    \"data\": {}\n  }, {\n    \"time\": 1444777069547,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"2583869b-0492-401b-be8d-d89bb245e8de\\\">XoBpawok</span>, <span class=\\\"user\\\" data-id=\\\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\\\">Маньячка</span> ?\",\n    \"data\": {\n      \"highlightedUsers\": [\"2583869b-0492-401b-be8d-d89bb245e8de\", \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\"]\n    }\n  }, {\n    \"time\": 1444777095491,\n    \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"c789d5b7-41f5-48ef-831a-9efee606c556\\\">Александр</span>, да сплю я. уходи уже\",\n    \"data\": {\n      \"highlightedUsers\": [\"c789d5b7-41f5-48ef-831a-9efee606c556\"],\n      \"replyTo\": {\n        \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n        \"time\": 1444777057885\n      }\n    }\n  }, {\n    \"time\": 1444777103181,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"Номер два.\",\n    \"data\": {}\n  }, {\n    \"time\": 1444777107410,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\\\">Маньячка</span>, ?\",\n    \"data\": {\n      \"highlightedUsers\": [\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\"]\n    }\n  }, {\n    \"time\": 1444777148147,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\\\">Маньячка</span>, ??\",\n    \"data\": {\n      \"highlightedUsers\": [\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\"]\n    }\n  }, {\n    \"time\": 1444777171401,\n    \"user\": \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"c789d5b7-41f5-48ef-831a-9efee606c556\\\">Александр</span>, дай мне спокойно посидеть, господи <br>спи уже\",\n    \"data\": {\n      \"highlightedUsers\": [\"c789d5b7-41f5-48ef-831a-9efee606c556\"],\n      \"replyTo\": {\n        \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n        \"time\": 1444777107410\n      }\n    }\n  }, {\n    \"time\": 1444777179333,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\\\">Маньячка</span>, Спасибо.\",\n    \"data\": {\n      \"highlightedUsers\": [\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\"]\n    }\n  }, {\n    \"time\": 1444777181358,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"Усё.\",\n    \"data\": {}\n  }, {\n    \"time\": 1444777185022,\n    \"user\": \"c789d5b7-41f5-48ef-831a-9efee606c556\",\n    \"text\": \"Пыщ!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444777216258,\n    \"user\": \"16a8b087-13ce-40c0-8c63-2d441587ae8c\",\n    \"text\": \"ох черт, уже 2 ночи!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444777241441,\n    \"user\": \"16a8b087-13ce-40c0-8c63-2d441587ae8c\",\n    \"text\": \"удачи всем\",\n    \"data\": {}\n  }, {\n    \"time\": 1444781712530,\n    \"user\": \"a86a3fe8-0b05-4ab6-a102-bd356f6f53fe\",\n    \"text\": \"Просветите задолбавшегося нуба, как на этом несчастном имиджборде люли цепляют к сообщениям картинки?\",\n    \"data\": {}\n  }, {\n    \"time\": 1444781722265,\n    \"user\": \"a86a3fe8-0b05-4ab6-a102-bd356f6f53fe\",\n    \"text\": \"Люди*\",\n    \"data\": {}\n  }, {\n    \"time\": 1444798973799,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет Катя!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444799027646,\n    \"user\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n    \"text\": \"Смотрю у вас тут весело было. Даже граф в изгнании заглянул\",\n    \"data\": {}\n  }, {\n    \"time\": 1444799608828,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет Rikuo!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444801112194,\n    \"user\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n    \"text\": \"!ютуб\",\n    \"data\": {}\n  }, {\n    \"time\": 1444801114802,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"<a target=\\\"_blank\\\" href=\\\"https://www.youtube.com/watch?v=VY_j3cXZiVs\\\" class=\\\"youtubeMessage\\\" title=\\\"https://www.youtube.com/watch?v=VY_j3cXZiVs\\\"><img nopopup src=\\\"/data/yz/GN/v6/ob_cropped.jpeg\\\" width=\\\"480\\\" height=\\\"270\\\"><span class=\\\"url\\\">https://www.youtube.com/watch?v=VY_j3cXZiVs</span></a>\",\n    \"data\": {}\n  }, {\n    \"time\": 1444801436925,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет gurni!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444801575790,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет draggy!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444801626558,\n    \"user\": \"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\",\n    \"text\": \"!ютуб\",\n    \"data\": {}\n  }, {\n    \"time\": 1444801628711,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"<a target=\\\"_blank\\\" href=\\\"https://www.youtube.com/watch?v=5M0xgR6CMbY\\\" class=\\\"youtubeMessage\\\" title=\\\"https://www.youtube.com/watch?v=5M0xgR6CMbY\\\"><img nopopup src=\\\"/data/ss/St/ta/5k_cropped.jpeg\\\" width=\\\"480\\\" height=\\\"270\\\"><span class=\\\"url\\\">https://www.youtube.com/watch?v=5M0xgR6CMbY</span></a>\",\n    \"data\": {}\n  }, {\n    \"time\": 1444801765649,\n    \"user\": \"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\">Юми</span>, <span class=\\\"user\\\" data-id=\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\">Vladimir</span> <span class=\\\"user\\\" data-id=\\\"16a8b087-13ce-40c0-8c63-2d441587ae8c\\\">Willard</span> <span class=\\\"user\\\" data-id=\\\"c789d5b7-41f5-48ef-831a-9efee606c556\\\">Александр</span> <span class=\\\"user\\\" data-id=\\\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\\\">Маньячка</span> <span class=\\\"user\\\" data-id=\\\"2583869b-0492-401b-be8d-d89bb245e8de\\\">XoBpawok</span> привет\",\n    \"data\": {\n      \"highlightedUsers\": [\"48902b07-9cd2-4014-a905-8fcffc87cbae\", \"5479f3f8-dc37-48a5-8d88-e6018552d706\", \"16a8b087-13ce-40c0-8c63-2d441587ae8c\", \"c789d5b7-41f5-48ef-831a-9efee606c556\", \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\", \"2583869b-0492-401b-be8d-d89bb245e8de\"],\n      \"replyTo\": {\n        \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n        \"time\": 1444777095491\n      }\n    }\n  }, {\n    \"time\": 1444801783544,\n    \"user\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\\\">draggy</span>, Здаров\",\n    \"data\": {\n      \"highlightedUsers\": [\"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\"]\n    }\n  }, {\n    \"time\": 1444801827498,\n    \"user\": \"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\\\">draggy</span>, <span class=\\\"user\\\" data-id=\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\">Юми</span> <span class=\\\"user\\\" data-id=\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\">Vladimir</span> <span class=\\\"user\\\" data-id=\\\"a86a3fe8-0b05-4ab6-a102-bd356f6f53fe\\\">ВафельныйМорж</span> <span class=\\\"user\\\" data-id=\\\"c789d5b7-41f5-48ef-831a-9efee606c556\\\">Александр</span> <span class=\\\"user\\\" data-id=\\\"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\\\">Маньячка</span> <span class=\\\"user\\\" data-id=\\\"c789d5b7-41f5-48ef-831a-9efee606c556\\\">Александр</span> <span class=\\\"user\\\" data-id=\\\"16a8b087-13ce-40c0-8c63-2d441587ae8c\\\">Willard</span> <span class=\\\"user\\\" data-id=\\\"2583869b-0492-401b-be8d-d89bb245e8de\\\">XoBpawok</span>\",\n    \"data\": {\n      \"highlightedUsers\": [\"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\", \"48902b07-9cd2-4014-a905-8fcffc87cbae\", \"5479f3f8-dc37-48a5-8d88-e6018552d706\", \"a86a3fe8-0b05-4ab6-a102-bd356f6f53fe\", \"c789d5b7-41f5-48ef-831a-9efee606c556\", \"33a01d9b-e1f2-4abb-93b1-c7e7df4ada99\", \"c789d5b7-41f5-48ef-831a-9efee606c556\", \"16a8b087-13ce-40c0-8c63-2d441587ae8c\", \"2583869b-0492-401b-be8d-d89bb245e8de\"],\n      \"replyTo\": {\n        \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n        \"time\": 1444776619408\n      }\n    }\n  }, {\n    \"time\": 1444801841864,\n    \"user\": \"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\",\n    \"text\": \"как дела\",\n    \"data\": {}\n  }, {\n    \"time\": 1444801870674,\n    \"user\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n    \"text\": \"Нормально\",\n    \"data\": {}\n  }, {\n    \"time\": 1444802445699,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет gurni!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444803884976,\n    \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n    \"text\": \"отец проснулся\",\n    \"data\": {}\n  }, {\n    \"time\": 1444803971218,\n    \"user\": \"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"2583869b-0492-401b-be8d-d89bb245e8de\\\">XoBpawok</span>, кой отец\",\n    \"data\": {\n      \"highlightedUsers\": [\"2583869b-0492-401b-be8d-d89bb245e8de\"],\n      \"replyTo\": {\n        \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n        \"time\": 1444803884976\n      }\n    }\n  }, {\n    \"time\": 1444803996969,\n    \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n    \"text\": \"<a target=\\\"_blank\\\" href=\\\"https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10644411_10152749997716840_503996343936091790_n.jpg?oh=e380b59d6453c441dbabcd8e3c76d0fc&amp;oe=56CE2121&amp;__gda__=1452313374_7cc2cc6dc61fbeef51ee6829bcbed81f\\\">https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10644411_10152749997716840_503996343936091790_n.jpg?oh=e380b59d6453c441dbabcd8e3c76d0fc&amp;amp;oe=56CE2121&amp;amp;__gda__=1452313374_7cc2cc6dc61fbeef51ee6829bcbed81f</a>\",\n    \"data\": {\n      \"votes\": [\"5479f3f8-dc37-48a5-8d88-e6018552d706\"]\n    }\n  }, {\n    \"time\": 1444804007642,\n    \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n    \"text\": \"<span class=\\\"user\\\" data-id=\\\"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\\\">draggy</span>, явно не святой\",\n    \"data\": {\n      \"highlightedUsers\": [\"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\"],\n      \"replyTo\": {\n        \"user\": \"ab7cac12-0019-43f6-82a6-6c3b2a3c94f1\",\n        \"time\": 1444803971218\n      }\n    }\n  }, {\n    \"time\": 1444806064429,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Иногда причинять боль куда больнее, чем терпеть её<br>Бластрейсер\",\n    \"data\": {}\n  }, {\n    \"time\": 1444806507129,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет monkey!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444806642628,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет monkey!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444806685607,\n    \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n    \"text\": \"<a target=\\\"_blank\\\" href=\\\"https://www.youtube.com/watch?v=WSm6yfYZQTI\\\" class=\\\"youtubeMessage\\\" title=\\\"https://www.youtube.com/watch?v=WSm6yfYZQTI\\\"><img nopopup src=\\\"/data/Hh/RK/06/qu_cropped.jpeg\\\" width=\\\"480\\\" height=\\\"270\\\"><span class=\\\"url\\\">https://www.youtube.com/watch?v=WSm6yfYZQTI</span></a>\",\n    \"data\": {}\n  }, {\n    \"time\": 1444806808834,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет monkey!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444806934626,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет monkey!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444807097297,\n    \"user\": \"2583869b-0492-401b-be8d-d89bb245e8de\",\n    \"text\": \"<a target=\\\"_blank\\\" href=\\\"https://www.youtube.com/watch?v=0hweBvdBB00\\\" class=\\\"youtubeMessage\\\" title=\\\"https://www.youtube.com/watch?v=0hweBvdBB00\\\"><img nopopup src=\\\"/data/Kk/Iv/6y/PI_cropped.jpeg\\\" width=\\\"480\\\" height=\\\"270\\\"><span class=\\\"url\\\">https://www.youtube.com/watch?v=0hweBvdBB00</span></a>\",\n    \"data\": {}\n  }, {\n    \"time\": 1444807241616,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет monkey!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444807309688,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет monkey!\",\n    \"data\": {}\n  }, {\n    \"time\": 1444807336616,\n    \"user\": \"48902b07-9cd2-4014-a905-8fcffc87cbae\",\n    \"text\": \"Привет monkey!\",\n    \"data\": {}\n  }],\n  \"doorCells\": [{\n    \"x\": 3,\n    \"y\": -1\n  }, {\n    \"x\": 6,\n    \"y\": -1\n  }],\n  \"lastTopic\": {\n    \"id\": 1343,\n    \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n    \"user\": \"5479f3f8-dc37-48a5-8d88-e6018552d706\",\n    \"text\": \"Дата основания комнаты 7 сентября 2015 года<br>Команды бота:<br>!info - все команды бота<br><br>Бота зовут Юми. Не обижайте её.<br>Пробуйте вводить команда на Русском языке. Они тоже работают\",\n    \"time\": 1442609460605,\n    \"deleted\": 0,\n    \"votes\": \"[\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"48902b07-9cd2-4014-a905-8fcffc87cbae\\\",\\\"b347a3d4-68db-4184-8d28-9daef006cef1\\\",\\\"af18133a-84f0-4b00-9ef0-6a308ce59fe3\\\",\\\"78f6fd22-21ee-4833-ae1f-e732b6e239d1\\\",\\\"2583869b-0492-401b-be8d-d89bb245e8de\\\",\\\"2583869b-0492-401b-be8d-d89bb245e8de\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"5479f3f8-dc37-48a5-8d88-e6018552d706\\\",\\\"78f6fd22-21ee-4833-ae1f-e732b6e239d1\\\"]\",\n    \"show_author\": 0,\n    \"voting_id\": null,\n    \"type\": 2,\n    \"data\": {\n      \"topic\": 1343,\n      \"showAuthor\": 0\n    },\n    \"voting\": false\n  }\n}]\n' [\"room\", {\n  \"event\": \"joined\",\n  \"user\": {\n    \"id\": \"80112620-a36c-473d-be04-815b11cac867\",\n    \"bodyparts\": {\n      \"body\": {\n        \"colors\": [\n          [127, 127, 127],\n          [127, 127, 127],\n          [127, 127, 127]\n        ],\n        \"id\": \"0f5b55c1-2b5a-46d4-a208-a9b8947c9ad4\",\n        \"kind\": \"body\",\n        \"part\": \"body_1\"\n      },\n      \"brows\": {\n        \"coins\": 1,\n        \"colors\": [\n          [248, 235, 194]\n        ],\n        \"id\": \"67946518-35cb-4a3a-ac38-bc92fe6d97a3\",\n        \"kind\": \"brows\",\n        \"part\": \"brows_9\"\n      },\n      \"eyes\": {\n        \"coins\": 1,\n        \"colors\": [\n          [130, 191, 212]\n        ],\n        \"id\": \"667d285c-978d-43a3-8ba2-b365ad134da8\",\n        \"kind\": \"eyes\",\n        \"part\": \"eyes_3\"\n      },\n      \"hair\": {\n        \"coins\": 1,\n        \"colors\": [\n          [248, 235, 194]\n        ],\n        \"id\": \"3788b4b2-03e6-44d0-a604-d2172747174d\",\n        \"kind\": \"hair\",\n        \"part\": \"hair_10\"\n      },\n      \"head\": {\n        \"colors\": [\n          [127, 127, 127],\n          [127, 127, 127],\n          [127, 127, 127]\n        ],\n        \"id\": \"de23419b-f0ed-483b-97d5-3ee6051a2a8d\",\n        \"kind\": \"head\",\n        \"part\": \"head_1\"\n      },\n      \"legs\": {\n        \"colors\": [\n          [127, 127, 127],\n          [127, 127, 127],\n          [127, 127, 127]\n        ],\n        \"id\": \"6f791898-2828-4346-91dd-f8840cb694d4\",\n        \"kind\": \"legs\",\n        \"part\": \"legs_1\"\n      },\n      \"mouth\": {\n        \"coins\": 1,\n        \"colors\": [\n          [127, 127, 127],\n          [127, 127, 127],\n          [127, 127, 127]\n        ],\n        \"id\": \"c7bf1d22-2362-4b62-bda4-b1dbd5fb63b5\",\n        \"kind\": \"mouth\",\n        \"part\": \"mouth_7\"\n      },\n      \"pants\": {\n        \"coins\": 1,\n        \"colors\": [\n          [8, 57, 31]\n        ],\n        \"id\": \"1f859588-44bd-4b9c-a4b3-458e20ea06b6\",\n        \"kind\": \"pants\",\n        \"part\": \"pants_1\"\n      },\n      \"shirt\": {\n        \"coins\": 1,\n        \"colors\": [\n          [255, 208, 108]\n        ],\n        \"id\": \"e9b43f33-924c-43e8-9a17-181c6af016ef\",\n        \"kind\": \"shirt\",\n        \"part\": \"shirt_5\"\n      }\n    },\n    \"bodycolor\": [251, 216, 194],\n    \"sex\": \"m\",\n    \"online\": true,\n    \"name\": \"monkey\",\n    \"shortId\": \"BXWKH\"\n  },\n  \"avatar\": {\n    \"user\": \"80112620-a36c-473d-be04-815b11cac867\",\n    \"x\": 6,\n    \"y\": -1\n  },\n  \"room\": \"ca217ae0-9c65-4d34-918c-58a89a096ee4\",\n  \"time\": 1444807920684\n}]",
+			"settings":
+			{
+				"buffer_size": 52314,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/package.json",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix",
+				"name": "index.html"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax cs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"set syntax jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package control install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/yo/workspace/tcclient",
+		"/home/yo/workspace/tcclient/node_modules",
+		"/home/yo/workspace/tcclient/release",
+		"/home/yo/workspace/tcclient/src"
+	],
+	"file_history":
+	[
+		"/home/yo/workspace/booker/token.js",
+		"/home/yo/workspace/booker/emailer.js",
+		"/home/yo/workspace/tcbot/index.js",
+		"/home/yo/workspace/tcclient/src/node_modules/websocket/lib/Validation.js",
+		"/home/yo/workspace/tcbot/package.json",
+		"/home/yo/workspace/tcclient/src/auth.js",
+		"/home/yo/workspace/tcclient/src/package.json",
+		"/home/yo/workspace/tcclient/node_modules/gulp-atom-electron/src/linux.js",
+		"/home/yo/workspace/tcclient/node_modules/gulp-atom-electron/src/index.js",
+		"/home/yo/workspace/tcclient/release/resources/atom.asar",
+		"/home/yo/workspace/tcclient/release/your-app",
+		"/home/yo/workspace/tcclient/src/main.js",
+		"/home/yo/workspace/tixcookiesminer/content.js",
+		"/home/yo/workspace/tixcookiesminer/manifest.json",
+		"/home/yo/workspace/tixcookiesminer.crx",
+		"/home/yo/.config/sublime-text-3/Packages/User/nw.sublime-build",
+		"/home/yo/workspace/tcbot/gulpfile.js",
+		"/home/yo/workspace/tcbot/.gitignore",
+		"/home/yo/workspace/tcbot/node_modules/.gitignore",
+		"/home/yo/workspace/anidubFetcher/server/server.js",
+		"/home/yo/workspace/anidubFetcher/server/parser.js",
+		"/home/yo/workspace/booker/old/routes/index.js",
+		"/home/yo/workspace/booker/seats.js",
+		"/home/yo/workspace/booker/index.js",
+		"/home/yo/workspace/booker/old/routes/users.js",
+		"/home/yo/workspace/booker/old/app.js",
+		"/home/yo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/yo/.xprofile",
+		"/home/yo/workspace/anidubFetcher/client/src/scss/main.scss",
+		"/home/yo/workspace/anidubFetcher/client/src/js/components/primitives/genre.js",
+		"/home/yo/workspace/anidubFetcher/client/src/js/components/primitives/list.js",
+		"/home/yo/workspace/anidubFetcher/client/build/js/bundle.js",
+		"/home/yo/workspace/anidubFetcher/client/src/js/components/pages/itemsList/index.js",
+		"/home/yo/workspace/anidubFetcher/client/src/js/components/primitives/listItem.js",
+		"/home/yo/workspace/anidubFetcher/gulpfile.js",
+		"/home/yo/workspace/anidubFetcher/package.json",
+		"/home/yo/workspace/anidubFetcher/server/app.js",
+		"/home/yo/workspace/anidubFetcher/client/build/.gitignore",
+		"/home/yo/workspace/anidubFetcher/server/index.js",
+		"/home/yo/workspace/anidubFetcher/client/anidubFetcher.sublime-project",
+		"/home/yo/workspace/anidubFetcher/server/npm-debug.log",
+		"/home/yo/workspace/flux-spa-test/app/scripts/store.js",
+		"/home/yo/workspace/anidubFetcher/src/js/actions.js",
+		"/home/yo/workspace/anidubFetcher/src/js/store.js",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/itemDetails/index.js",
+		"/home/yo/workspace/anidubFetcher/src/js/ItemModel.js",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/itemsList/index.js",
+		"/home/yo/workspace/anidubFetcher/src/js/index.js",
+		"/home/yo/workspace/anidubFetcher/src/js/components/primitives/listItem.js",
+		"/home/yo/workspace/anidubFetcher/src/scss/main.scss",
+		"/home/yo/workspace/anidubFetcher/src/js/components/primitives/listItem.jsx",
+		"/home/yo/workspace/flux-spa-test/app/scripts/actions.js",
+		"/home/yo/workspace/flux-spa-test/app/scripts/const.js",
+		"/home/yo/workspace/anidubFetcher/src/js/const.js",
+		"/home/yo/workspace/anidubFetcher/src/js/dispatcher.js",
+		"/home/yo/workspace/anidubFetcher/build/js/bundle.js",
+		"/home/yo/workspace/flux-spa-test/app/scripts/index.js",
+		"/home/yo/workspace/flux-spa-test/app/scripts/components/pages/about/index.js",
+		"/home/yo/workspace/flux-spa-test/app/scripts/components/pages/apple/index.js",
+		"/home/yo/workspace/anidubFetcher/build/index.html",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/itemDetails/index.jsx",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/list/index.jsx",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/itemDescription/index.jsx",
+		"/home/yo/workspace/anidubFetcher/src/js/components/App.jsx",
+		"/home/yo/workspace/anidubFetcher/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+		"/home/yo/workspace/anidubFetcher/src/index.html",
+		"/home/yo/workspace/anidubFetcher/build/css/bundle.css",
+		"/home/yo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/yo/workspace/anidubFetcher/build/css/main.css",
+		"/home/yo/workspace/anidubFetcher/node_modules/react/dist/JSXTransformer.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"/home/yo/workspace/anidubFetcher/client"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"coockie",
+			"gtk",
+			"lib",
+			"sendNumber",
+			"seats",
+			"response",
+			"querystring",
+			"parseToken",
+			"props",
+			"debugger;",
+			"state",
+			"debugger",
+			"base",
+			"this\\.base",
+			"http",
+			"i ",
+			"DefaultRoute",
+			"item",
+			"Handler",
+			"react"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"state",
+			"props",
+			"base"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"auto_name": "gulpfile.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/auth.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1858,
+								1858
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/socket.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"auto_name": "client.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/yo/workspace/booker/token.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3977,
+								3977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/nw.sublime-build",
+	"project": "tcclient.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"index",
+				"build/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

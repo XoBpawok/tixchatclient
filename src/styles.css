@@ -1,0 +1,12 @@
+.room {
+  border-bottom: 1px solid #000;
+}
+.msg-time {
+  font-size: 12px;
+  color: gray;
+}
+
+.msg-author {
+  font-size: 14px;
+  font-weight: bold;
+}
